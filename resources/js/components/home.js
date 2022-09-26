@@ -43,6 +43,12 @@ function Home(props) {
                 <li>
                     <Link to="/gashapon">轉蛋機</Link>
                 </li>
+                <li>
+                    <Link to="/gashapon2">轉蛋機2</Link>
+                </li>
+                <li>
+                    <Link to="/gsap">gsap 測試</Link>
+                </li>
             </div>
         </div>
     );

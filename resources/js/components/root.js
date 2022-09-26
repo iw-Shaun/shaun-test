@@ -6,6 +6,8 @@ import Home from "./home";
 import lottery from "./lottery/lottery";
 import carousel from "./carousel/carousel";
 import gashapon from "./gashapon/gashapon";
+import gashapon2 from "./gashapon2/gashapon2";
+import gsaptest from "./gsap/gsaptest";
 function Root() {
     return (
         <BrowserRouter>
@@ -14,6 +16,8 @@ function Root() {
                 <Route path="/lottery" exact component={lottery} />
                 <Route path="/carousel" exact component={carousel} />
                 <Route path="/gashapon" exact component={gashapon} />
+                <Route path="/gashapon2" exact component={gashapon2} />
+                <Route path="/gsap" exact component={gsaptest} />
             </Switch>
         </BrowserRouter>
     );
